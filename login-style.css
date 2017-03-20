@@ -1,0 +1,41 @@
+#text-one {
+  text-align: center;
+  font-size: 37px;
+  font-family: Ubuntu;
+}
+
+#text-two {
+  text-align: center;
+  font-family: Ubuntu;
+}
+
+#text-three {
+  text-align: center;
+  font-size: 15px;
+  font-family: Ubuntu;
+}
+
+#login-container {
+  background-color: #F6F6F6;
+  width: 25% ;
+  margin-left: auto ;
+  margin-right: auto ;
+  color: red;
+  font-size: 12px;
+}
+
+.button.blue {
+	background-color: #4D90FE;
+	border: 1px solid #3079ED;
+	color: white;
+  font-weight: bold;
+  width: 50%;
+  height: 35px
+}
+
+.button.blue:hover {
+	border: 1px solid #2F5BB7;
+	background-color: #357AE8;
+
+	box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}

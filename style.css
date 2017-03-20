@@ -1,0 +1,141 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: #67aded;
+}
+
+.content-table tr:nth-child(even) {
+	background-color: #ff9d2a;
+}
+
+.content-table tr:nth-child(odd) {
+	background-color: #f57722;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td {
+	text-align: center;
+}
+
+p, td {
+	padding: 10px 16px 10px 16px;
+}
+
+.day-header {
+	font-weight: bold;
+	background-color: #d3d3d3;
+	width: 10%;
+}
+
+.table-header {
+	font-weight: bold;
+	background-color: #d3d3d3;
+}
+
+.time {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.nav a{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 12px 8px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav {
+	background-color: #393939;
+}
+
+nav {
+	text-align: center;
+
+}
+
+.center {
+	text-align: center;
+}
+
+table {
+	width:100%
+}
+
+#ad-container table {
+	border: none;
+}
+
+#ad-container td {
+	padding: 0;
+	border: none;
+}
+
+.user {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.ad-btn {
+	background-color: Transparent;
+	border: none;
+	cursor: pointer;
+	outline:none;
+	display: inline-block;
+}
+
+#calendar-container, #users-container,
+#ad-container, #form-container,
+#map-container, #map-input-container{
+		width: 50% ;
+		margin-left: auto ;
+		margin-right: auto ;
+}
+
+#map-container {
+	height: 60%;
+}
+
+#form-container td {
+	font-weight: bold;
+}
+
+#error-msg-container {
+	text-align: center;
+	color: yellow;
+	font-weight: bold;
+}
+
+.bullet-container {
+	text-align: center;
+}
+
+.marquee {
+	background-color: #ffffcc;
+	width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    animation: marquee 15s linear infinite;
+}
+
+.location_img {
+   display: none;
+   height: 70px;
+   width: 120px;
+}
+
+#map {
+	height: 100px;
+}
+
+@keyframes marquee {
+    0%   { text-indent: 105em }
+    100% { text-indent: -105em }
+}

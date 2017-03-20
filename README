@@ -1,0 +1,12 @@
+A web-based schedule application built using HTML5, CSS, PHP, and SQL that allows users to add events to their schedule, search for locations and restaurants around the University of Minnesota Campus using the Google Maps API, and manage user accounts.
+
+
+Try it out here: http://www-users.cselabs.umn.edu/~caste068/Assignment_9/login.php
+
+
+log in credentials:
+username: username
+password: password
+
+
+
